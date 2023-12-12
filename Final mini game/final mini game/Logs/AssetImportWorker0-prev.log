@@ -1,0 +1,554 @@
+Unity Editor version:    2022.3.12f1 (4fe6e059c7ef)
+Branch:                  2022.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.1.2 (Build 23B92)
+Darwin version:          23.1.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        32768 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/juangonzalez352/Documents/GitHub/Final-Fall-Semester/Final mini game/final mini game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49577
+Successfully changed project path to: /Users/juangonzalez352/Documents/GitHub/Final-Fall-Semester/Final mini game/final mini game
+/Users/juangonzalez352/Documents/GitHub/Final-Fall-Semester/Final mini game/final mini game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8138432192] Host "[IP] 10.94.11.253 [Port] 0 [Flags] 2 [Guid] 2020957026 [EditorId] 2020957026 [Version] 1048832 [Id] OSXEditor(0,mac-studio.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8138432192] Host "[IP] 10.94.11.253 [Port] 0 [Flags] 2 [Guid] 2020957026 [EditorId] 2020957026 [Version] 1048832 [Id] OSXEditor(0,mac-studio.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 1.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/juangonzalez352/Documents/GitHub/Final-Fall-Semester/Final mini game/final mini game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M2 Max (high power)
+Metal devices available: 1
+0: Apple M2 Max (high power)
+Using device Apple M2 Max (high power)
+Initializing Metal device caps: Apple M2 Max
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56183
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.12f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000873 seconds.
+- Loaded All Assemblies, in  0.163 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.119 seconds
+Domain Reload Profiling: 281ms
+	BeginReloadAssembly (38ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (75ms)
+		LoadAssemblies (38ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (74ms)
+			TypeCache.Refresh (74ms)
+				TypeCache.ScanAssembly (66ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (119ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (88ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (60ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.275 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.264 seconds
+Domain Reload Profiling: 539ms
+	BeginReloadAssembly (59ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (172ms)
+		LoadAssemblies (105ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (93ms)
+			TypeCache.Refresh (85ms)
+				TypeCache.ScanAssembly (77ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (265ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (188ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (27ms)
+			ProcessInitializeOnLoadAttributes (148ms)
+			ProcessInitializeOnLoadMethodAttributes (9ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3082 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (51.3 KB). Loaded Objects now: 3543.
+Memory consumption went from 125.7 MB to 125.6 MB.
+Total: 2.028250 ms (FindLiveObjects: 0.088792 ms CreateObjectMapping: 0.052792 ms MarkObjects: 1.826833 ms  DeleteObjects: 0.059333 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 831.807864 seconds.
+  path: Assets/Art
+  artifactKey: Guid(d4a92b45c96e34ff9ad78e2069356603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art using Guid(d4a92b45c96e34ff9ad78e2069356603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f01779222fd97a851325b7b7f60df985') in 0.001107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 28.823442 seconds.
+  path: Assets/Art/Preview.png
+  artifactKey: Guid(e43f711b96ab64783a8b6e65094dc159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Preview.png using Guid(e43f711b96ab64783a8b6e65094dc159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e826e686eb7a3cdf8800bcca07bbe61') in 0.026337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Art/Sample.png
+  artifactKey: Guid(c9df0ec8be09d4c84bd8dd6bf52c0e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sample.png using Guid(c9df0ec8be09d4c84bd8dd6bf52c0e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9cd47502e060c11636c48680173369d') in 0.002959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 67.745124 seconds.
+  path: Assets/kenney_rpg-audio
+  artifactKey: Guid(44b8eb67a6c79449a9e28a1ed691e637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_rpg-audio using Guid(44b8eb67a6c79449a9e28a1ed691e637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81840278ffc08559f26c948d1c4debb9') in 0.000412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 124.818697 seconds.
+  path: Assets/Art/Models
+  artifactKey: Guid(ffa94ec6cf86744eba30f9fee6f8aa93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models using Guid(ffa94ec6cf86744eba30f9fee6f8aa93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a272586fc47a7e2ef11fb60c912ee986') in 0.000412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.387908 seconds.
+  path: Assets/Art/Models/FBX format
+  artifactKey: Guid(758068b263e1a4ab885479092816472a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/FBX format using Guid(758068b263e1a4ab885479092816472a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7618d302ad7b62da3ebbc955185a2e0f') in 0.000361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.056145 seconds.
+  path: Assets/Art/Models/FBX format/banner.fbx
+  artifactKey: Guid(5fbeb3814450649ff96f85dfee61866c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/FBX format/banner.fbx using Guid(5fbeb3814450649ff96f85dfee61866c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12341f6bcb466d400490b08b837c7725') in 0.388791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/Models/FBX format/chest.fbx
+  artifactKey: Guid(294b9b0b4a5a44409b24e11aa6001829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/FBX format/chest.fbx using Guid(294b9b0b4a5a44409b24e11aa6001829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8b2b0d8685cce17ef411654caab2d5') in 0.010757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Art/Models/FBX format/wall.fbx
+  artifactKey: Guid(404cf0133d7d64e1daf97440b20a3e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/FBX format/wall.fbx using Guid(404cf0133d7d64e1daf97440b20a3e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649ad4eaa76f107efe1aebe2303e2388') in 0.006601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/Models/FBX format/column.fbx
+  artifactKey: Guid(7714b0678b42c42c0ab0bfa56146427c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/FBX format/column.fbx using Guid(7714b0678b42c42c0ab0bfa56146427c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601078113157f795d42813ab7cab271e') in 0.007179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/Models/FBX format/stones.fbx
+  artifactKey: Guid(df68ee78717bb40ac84a607ce13129c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/FBX format/stones.fbx using Guid(df68ee78717bb40ac84a607ce13129c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98c43400610da4f302e3508fcd4faa2') in 0.005960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/Models/FBX format/dirt.fbx
+  artifactKey: Guid(e953171ccd7bd41acb82dda66cb496a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/FBX format/dirt.fbx using Guid(e953171ccd7bd41acb82dda66cb496a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82973c089c7075ea7640883c79cc70c3') in 0.006012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Art/Models/FBX format/wood-support.fbx
+  artifactKey: Guid(2a379072f189f4bbca5ab53d1868919d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/FBX format/wood-support.fbx using Guid(2a379072f189f4bbca5ab53d1868919d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6592f86315491f8e8732797b3299bad') in 0.006167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Art/Models/FBX format/rocks.fbx
+  artifactKey: Guid(1aef80846c5fb4786b09099fbe92bbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/FBX format/rocks.fbx using Guid(1aef80846c5fb4786b09099fbe92bbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa4a03913ab5f1e81952f433805974ca') in 0.005652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/Models/FBX format/stairs.fbx
+  artifactKey: Guid(da93072c9da0e4c5ea8f189ab97dd28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/FBX format/stairs.fbx using Guid(da93072c9da0e4c5ea8f189ab97dd28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1aacd041fafb6fe81fb5fb556b9b770') in 0.005937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Art/Models/FBX format/wall-narrow.fbx
+  artifactKey: Guid(a22ef9ab275f449378487ca9c229041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/FBX format/wall-narrow.fbx using Guid(a22ef9ab275f449378487ca9c229041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2693a11ce591146ad6d21e0146351634') in 0.006476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Art/Models/FBX format/wall-half.fbx
+  artifactKey: Guid(90ee3156816bb4ca6afb18502e1da663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/FBX format/wall-half.fbx using Guid(90ee3156816bb4ca6afb18502e1da663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23326da8577f6c10e6fe16504991d702') in 0.007642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Art/Models/FBX format/character-orc.fbx
+  artifactKey: Guid(b5c2808a7f4f14dc3b69517b6f23ae72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/FBX format/character-orc.fbx using Guid(b5c2808a7f4f14dc3b69517b6f23ae72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8e65159f5f1ab6debad9ab3eb2f254') in 0.018138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 63
+========================================================================
+Received Import Request.
+  Time since last request: 57.774359 seconds.
+  path: Assets/Art/barrel.fbx
+  artifactKey: Guid(5ccc7cf5135b14f0c84d861b235c1bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/barrel.fbx using Guid(5ccc7cf5135b14f0c84d861b235c1bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8470d3968ca2c795d9ff47c692415eab') in 0.008661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/wall-narrow.fbx
+  artifactKey: Guid(9fdd24d5e72584b10baee635c09a8439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/wall-narrow.fbx using Guid(9fdd24d5e72584b10baee635c09a8439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb91ca5d1e7bcf2401319bb95045b3d8') in 0.007560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Art/dirt.fbx
+  artifactKey: Guid(75c4bdd4e75d949ad95a575e51434151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/dirt.fbx using Guid(75c4bdd4e75d949ad95a575e51434151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497e447480b115b264caef28410fb165') in 0.006906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Art/floor.fbx
+  artifactKey: Guid(ecd28f73ae1e440e9b1634f1253a9746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/floor.fbx using Guid(ecd28f73ae1e440e9b1634f1253a9746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2df1195492c16a6091759454fc6fc5') in 0.005407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/wall-half.fbx
+  artifactKey: Guid(fddc310efbe4c4854b0fd7b13a78aa6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/wall-half.fbx using Guid(fddc310efbe4c4854b0fd7b13a78aa6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648b94c6542000ccae3243cedaaba14f') in 0.005661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Art/stones.fbx
+  artifactKey: Guid(79e631f5aca6545aebd36e30cba93276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/stones.fbx using Guid(79e631f5aca6545aebd36e30cba93276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f887385a64ce443c80c6c30a25456b66') in 0.005790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/floor-detail.fbx
+  artifactKey: Guid(f7886aabe8c3e427c8635803162d4c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/floor-detail.fbx using Guid(f7886aabe8c3e427c8635803162d4c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cccc3f31e4595e402a7a78190cdc5a5') in 0.005502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/column.fbx
+  artifactKey: Guid(00daec220291247a4979eb095515a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/column.fbx using Guid(00daec220291247a4979eb095515a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d60170b16766be650fa0d53d05211b') in 0.006342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/rocks.fbx
+  artifactKey: Guid(a2512bbcb193149209e8b79db2f5e575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/rocks.fbx using Guid(a2512bbcb193149209e8b79db2f5e575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270f7ea4cc33f810e50a3174794967eb') in 0.006340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/trap.fbx
+  artifactKey: Guid(94b24a6827e0241f698e2d98e62102a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/trap.fbx using Guid(94b24a6827e0241f698e2d98e62102a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0448c9aa364d87275c3d9a4c94f2ea') in 0.009033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/character-orc.fbx
+  artifactKey: Guid(8a1b75017efac4092bae4e52ca48b6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/character-orc.fbx using Guid(8a1b75017efac4092bae4e52ca48b6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee409c1d42d00a13c92be991788e300') in 0.017478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 63
+========================================================================
+Received Import Request.
+  Time since last request: 429.745571 seconds.
+  path: Assets/kenney_rpg-audio/Audio/beltHandle2.ogg
+  artifactKey: Guid(1a49f58809f98418e93aa3f10934431f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_rpg-audio/Audio/beltHandle2.ogg using Guid(1a49f58809f98418e93aa3f10934431f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3722fa95c2b31a1c7a9a2a3b345487f5') in 0.058571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/kenney_rpg-audio/Audio/footstep02.ogg
+  artifactKey: Guid(2bc24459edafb4666a4f463b1666c9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_rpg-audio/Audio/footstep02.ogg using Guid(2bc24459edafb4666a4f463b1666c9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cdf269508303a9039e5033802161f3a') in 0.002476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/kenney_rpg-audio/Audio/clothBelt.ogg
+  artifactKey: Guid(a11a9aada62984bf3b0387c9cb22663a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_rpg-audio/Audio/clothBelt.ogg using Guid(a11a9aada62984bf3b0387c9cb22663a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfeea0fe5d2ae0b0cf3b80d0611fa526') in 0.002143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/kenney_rpg-audio/Audio/bookFlip1.ogg
+  artifactKey: Guid(7fe6428e726f54f919de34de85aea5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_rpg-audio/Audio/bookFlip1.ogg using Guid(7fe6428e726f54f919de34de85aea5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f77d1b3b44f07b8557cdc2eb6292c68') in 0.002426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/kenney_rpg-audio/Audio/bookFlip2.ogg
+  artifactKey: Guid(9137f6c33dcf04f4b8d6da09a8527fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_rpg-audio/Audio/bookFlip2.ogg using Guid(9137f6c33dcf04f4b8d6da09a8527fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74365db18ca3f84d67120f023237b63') in 0.002164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/kenney_rpg-audio/Audio/footstep09.ogg
+  artifactKey: Guid(e2c793525b8ee4cfda1012d39ce832b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_rpg-audio/Audio/footstep09.ogg using Guid(e2c793525b8ee4cfda1012d39ce832b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d78c11b78b98ba9bbd444b1be5aa2d') in 0.001998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/kenney_rpg-audio/Audio/metalPot1.ogg
+  artifactKey: Guid(4c0ca701fdb24472dbdb796cf76f3146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_rpg-audio/Audio/metalPot1.ogg using Guid(4c0ca701fdb24472dbdb796cf76f3146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2a490ebb39f6755b4986f828701299') in 0.002145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/kenney_rpg-audio/Audio/creak3.ogg
+  artifactKey: Guid(c9e4115d15ca44cc5808d43775b0d07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_rpg-audio/Audio/creak3.ogg using Guid(c9e4115d15ca44cc5808d43775b0d07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df202888fd78ffdd82de419326b56bc') in 0.002399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/kenney_rpg-audio/Audio/metalLatch.ogg
+  artifactKey: Guid(396933b5592f64b8c9a547a0327bdc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_rpg-audio/Audio/metalLatch.ogg using Guid(396933b5592f64b8c9a547a0327bdc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4940e6f018b239367c76a7a450772d0c') in 0.002324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/kenney_rpg-audio/Audio/clothBelt2.ogg
+  artifactKey: Guid(c74a6b213966c4f8dad47937e9992c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_rpg-audio/Audio/clothBelt2.ogg using Guid(c74a6b213966c4f8dad47937e9992c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d8b309180a013a82eef7b36e549a3a') in 0.001915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/kenney_rpg-audio/Audio/dropLeather.ogg
+  artifactKey: Guid(758dc38d266d2439891ed84cbfd76095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_rpg-audio/Audio/dropLeather.ogg using Guid(758dc38d266d2439891ed84cbfd76095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a7f9bb07bf545398e850060269e4bc') in 0.001878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/kenney_rpg-audio/Audio/footstep08.ogg
+  artifactKey: Guid(68cb46abb3ba6484692d8efc5d6eb2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_rpg-audio/Audio/footstep08.ogg using Guid(68cb46abb3ba6484692d8efc5d6eb2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbeac8c2accba93662d6f7edc3767dc') in 0.001874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/kenney_rpg-audio/Audio/doorOpen_2.ogg
+  artifactKey: Guid(fa37085a1f55443efae576c7396db5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_rpg-audio/Audio/doorOpen_2.ogg using Guid(fa37085a1f55443efae576c7396db5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c1321eaef4f52c465cf18139b384c61') in 0.001841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/kenney_rpg-audio/Audio/footstep07.ogg
+  artifactKey: Guid(6d2c88083c6394915b04813eab91d2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_rpg-audio/Audio/footstep07.ogg using Guid(6d2c88083c6394915b04813eab91d2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8cea9bd1eda872e151aa8cd01bac807') in 0.001786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/kenney_rpg-audio/Audio/bookPlace1.ogg
+  artifactKey: Guid(67e1c4cdcbd094d2fabe78c49ee4859f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_rpg-audio/Audio/bookPlace1.ogg using Guid(67e1c4cdcbd094d2fabe78c49ee4859f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628fe6ff97cfd991e5195f528c723625') in 0.002004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/kenney_rpg-audio/Audio/drawKnife2.ogg
+  artifactKey: Guid(3c5673fa5785a4766a486e610daae176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_rpg-audio/Audio/drawKnife2.ogg using Guid(3c5673fa5785a4766a486e610daae176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25afbb94353920ae39c1ace3eda550b') in 0.002061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
