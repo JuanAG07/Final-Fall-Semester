@@ -9,6 +9,7 @@ public class coin : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             Debug.Log("Player collected the coin.");
+            GameObject.Find("")
             Destroy(this.gameObject);
         }
     }
