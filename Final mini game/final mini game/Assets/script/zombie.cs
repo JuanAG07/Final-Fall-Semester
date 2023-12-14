@@ -20,14 +20,14 @@ public class zombie : MonoBehaviour
     void FixedUpdate()
     {
         Vector2 lookDirection = (_player.transform.position - transform.position).normalized;
-        _zombieRb.AddForce(lookDirection)
+        _zombieRb.AddForce(lookDirection);
     }
 
     private void OnCollisionEnter(Collision other)
     {
         if(other.gameObject.CompareTag("Player"))
         {
-            Debug.Log("The Zombie hit the player!");
+            Debug.Log("The zombie hit the player!");
         }
     }
 }

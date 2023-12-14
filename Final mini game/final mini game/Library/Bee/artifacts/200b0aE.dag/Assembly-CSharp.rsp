@@ -354,6 +354,7 @@
 "Assets/script/cameracontroller.cs"
 "Assets/script/coin.cs"
 "Assets/script/playercontroller.cs"
+"Assets/script/SpawnManager.cs"
 "Assets/script/UIManager.cs"
 "Assets/script/zombie.cs"
 -langversion:9.0
