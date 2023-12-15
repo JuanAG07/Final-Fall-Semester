@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System
 using UnityEngine;
 
 public class coin : MonoBehaviour
@@ -18,7 +19,6 @@ public class coin : MonoBehaviour
         {
             Debug.Log("Player collected the coin.");
             GameObject.Find("Canvas").GetComponent<UIManager>().UpdateCoinCount();
-            _coinAudio.playOneShot();
             Destroy(this.gameObject);
         }
     }
